@@ -1,4 +1,4 @@
-import {Person} from './more';
+import {Person} from './';
 
 window.onload = main;
 
