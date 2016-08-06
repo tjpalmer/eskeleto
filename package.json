@@ -1,0 +1,14 @@
+{
+  "name": "eskeleto",
+  "version": "0.0.0",
+  "devDependencies": {
+    "awesome-typescript-loader": "^2.1.1",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "prepublish": "webpack --color -p",
+    "watch": "webpack-dev-server --color -d --port 8080"
+  }
+}
