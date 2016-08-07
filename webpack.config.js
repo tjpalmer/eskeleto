@@ -7,6 +7,9 @@ module.exports = {
         test: /\.css$/,
         loader: "style!css",
       }, {
+        test: /\.json$/,
+        loader: 'json',
+      }, {
         test: /\.ts$/,
         loader: 'awesome-typescript-loader',
       },
